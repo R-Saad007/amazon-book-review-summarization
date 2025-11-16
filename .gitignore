@@ -1,0 +1,35 @@
+# Scala/sbt build artifacts
+target/
+*.jar
+*.class
+
+# sbt specific
+.cache
+.history
+.lib/
+dist/*
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+
+# Scala-IDE/Metals specific
+.bloop/
+.bsp/
+.metals/
+.scala-build/
+.vscode/
+metals.sbt
+
+# Data files (uncomment if you don't want to commit data)
+# *.csv
+# *.jsonl
+# data/
+
+# Spark
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Mac
+.DS_Store
